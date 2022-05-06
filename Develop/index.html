@@ -27,57 +27,59 @@
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
+      <p id="currentHour"></p>
     </header>
 
     <div class="container">
-      <div class = "row my-row">
-        <div class = "col my-col col-a1 colorcode" id = "9"> 9am </div>
-        <div class = "col my-col col-a2 edit_cont" > </div>
-        <div class = "col my-col col-a3 edit_btn"> edit </div>
+      <div class = "row">
+        <div class="hour"id = "9">9:00 AM      </div>
+        <textarea id="txt" class = "col my-col col-a2 row"></textarea>
+        <button class = "saveBtn">Save </button>
       </div>
-      <div class = "row my-row" >
-        <div class = "col my-col col-b1 colorcode" id = "10"> 10am </div>
-        <div class = "col my-col col-b2 edit_cont">  </div>
-        <div class = "col my-col col-b3 edit_btn"> edit </div>
+      <div class = "row" >
+        <div class="hour" id = "10">10:00 AM    </div>
+        <textarea id="txt" class = "col my-col col-b2 row"></textarea>
+        <button class = "saveBtn">Save </button>
       </div>
-      <div class = "row my-row" >
-        <div class = "col my-col col-c1 colorcode" id = "11" > 11am </div>
-        <div class = "col my-col col-c2 edit_cont">  </div>
-        <div class = "col my-col col-c3 edit_btn"> edit </div>
+      <div class = "row" >
+        <div class="hour" id = "11">11:00 AM    </div>
+        <textarea id="txt" class = "col my-col col-c2 row"></textarea>
+        <button class = "saveBtn">Save </button>
       </div>
-      <div class = "row my-row">
-        <div class = "col my-col col-a1 colorcode" id = "9"> 12pm </div>
-        <div class = "col my-col col-a2 edit_cont" > </div>
-        <div class = "col my-col col-a3 edit_btn"> edit </div>
+      <div class = "row">
+        <div class="hour" id = "12">12:00 PM    </div>
+        <textarea id="txt" class = "col my-col col-a1 row"></textarea>
+        <button class = "saveBtn">Save </button>
       </div>
-      <div class = "row my-row" >
-        <div class = "col my-col col-b1 colorcode" id = "10"> 1pm </div>
-        <div class = "col my-col col-b2 edit_cont">  </div>
-        <div class = "col my-col col-b3 edit_btn"> edit </div>
+      <div class = "row" >
+        <div class="hour" id = "1">1:00 PM      </div>
+        <textarea id="txt" class = "col my-col col-b2 row"></textarea>
+        <button class = "saveBtn">Save </button>
       </div>
-      <div class = "row my-row" >
-        <div class = "col my-col col-c1 colorcode" id = "11" > 2pm </div>
-        <div class = "col my-col col-c2 edit_cont">  </div>
-        <div class = "col my-col col-c3 edit_btn"> edit </div>
+      <div class = "row" >
+        <div class="hour" id = "2" >2:00 PM      </div>
+        <textarea id="txt" class = "col my-col col-c2 row"></textarea>
+        <button class = "saveBtn">Save </button>
       </div>
-      <div class = "row my-row" >
-        <div class = "col my-col col-c1 colorcode" id = "11" > 3pm </div>
-        <div class = "col my-col col-c2 edit_cont">  </div>
-        <div class = "col my-col col-c3 edit_btn"> edit </div>
+      <div class = "row" >
+        <div class="hour" id = "3" >3:00 PM      </div>
+        <textarea id="txt" class = "col my-col col-c2 row"></textarea>
+        <button class = "saveBtn">Save </button>
       </div>
-      <div class = "row my-row" >
-        <div class = "col my-col col-c1 colorcode" id = "11" > 4pm </div>
-        <div class = "col my-col col-c2 edit_cont">  </div>
-        <div class = "col my-col col-c3 edit_btn"> edit </div>
+      <div class = "row" >
+        <div class="hour" id = "4" >4:00 PM      </div>
+        <textarea id="txt" class = "col my-col col-c2 row"></textarea>
+        <button class = "saveBtn">Save </button>
       </div>
-      <div class = "row my-row" >
-        <div class = "col my-col col-c1 colorcode" id = "11" > 5pm </div>
-        <div class = "col my-col col-c2 edit_cont">  </div>
-        <div class = "col my-col col-c3 edit_btn"> edit </div>
+      <div class = "row" >
+        <div class="hour" id = "5" >5:00 PM      </div>
+        <textarea id="txt" class = "col my-col col-c2 row"></textarea>
+        <button class = "saveBtn">Save </button>
       </div>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.3/moment.min.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
