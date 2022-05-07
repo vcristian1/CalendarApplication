@@ -45,19 +45,28 @@ $(".time-block").each(function () {
 
 // on click of saveButton, 
 $(".saveBtn").click(function () {
-    let description = $(this)
+    //selectedHour is equal to the ID within each time-block class,
+    //the right side translates to target the id's within the .time-block
+    //class which is a sibling to the current element targeted saveButton .saveBtn
+    let selectedHour = $(this).siblings(".time-block").attr("id");
+    //content is equal to the value of the textarea element targeted by the
+    // time-block class, which is a sibling of the current element targetted 
+    //in the DOM which is the saveButton .saveBtn  
+    let content = $(this).siblings(".time-block").val();
+    // saves both variables together in local storage
+    localStorage.setItem(selectedHour, content);
 })
 
+//Because hours in moment.js are in 24 hour time, each text area needed an id starting
+//from 9 to 17 which is 5pm in standard time. 
 
-
-
-
-
-
-
-// function runTime() {
-//     let currentHour = moment().format('LT');
-//     if(currentHour === hoursOfDay[i]) {
-//         document.querySelector(".hour").style.color = "blue";
-//     }
-// }
+//pulls the stored data from localStorage and puts it back in the .time-block classes
+$("#9").val(localStorage.getItem("9"));
+$("#10").val(localStorage.getItem("10"));
+$("#11").val(localStorage.getItem("11"));
+$("#12").val(localStorage.getItem("12"));
+$("#13").val(localStorage.getItem("13"));
+$("#14").val(localStorage.getItem("14"));
+$("#15").val(localStorage.getItem("15"));
+$("#16").val(localStorage.getItem("16"));
+$("#17").val(localStorage.getItem("17"));
