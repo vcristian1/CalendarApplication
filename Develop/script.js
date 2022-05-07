@@ -3,8 +3,6 @@ let textArea = document.querySelectorAll(".time-block");
 let currentDay = document.querySelector("#currentDay");
 let hour = document.querySelectorAll(".hour")
 
-
-
 //function to display the date using moment.js
 function displayDate() {
     $("#currentDay").html(moment().format('MMMM Do YYYY, h:mm:ss a'));
@@ -23,7 +21,6 @@ let currentHour = moment().hours()
 // the HTML which will return as an integer due to the parseInt used. 
 $(".time-block").each(function () {
     let calendarHour = parseInt($(this).attr("id"));
-
     //conditional statements to correctly style the content inside the .time-block
     //classes. Each conditional will either add or remove either the .present, .future, 
     //or .past class
@@ -46,9 +43,9 @@ $(".time-block").each(function () {
     }
 });
 
-
-$(".saveBtn").on("click", function (event) {
-    event.preventDefault()
+// on click of saveButton, 
+$(".saveBtn").click(function () {
+    let description = $(this)
 })
 
 
