@@ -3,7 +3,5 @@ This is a simple calendar application that allows a user to save events for each
 
 # Github Pages and Repository Link
 
-[Github Pages](https://vcristian1.github.io/CalendarApplication/)
 
-[Repo](https://github.com/vcristian1/CalendarApplication)
 
