@@ -7,7 +7,6 @@ let hour = document.querySelectorAll(".hour")
 function displayDate() {
     $("#currentDay").html(moment().format('MMMM Do YYYY, h:mm:ss a'));
 }
-
 // setInterval is used to repeat the display date function which places the
 // time from moment.js into the <p> tag containing the #currentDay ID.
 // Without setInterval we would not see the seconds change in real time. 
