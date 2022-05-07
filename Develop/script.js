@@ -60,7 +60,7 @@ $(".saveBtn").click(function () {
 //Because hours in moment.js are in 24 hour time, each text area needed an id starting
 //from 9 to 17 which is 5pm in standard time. 
 
-//pulls the stored data from localStorage and puts it back in the .time-block classes
+//targets localStorage stored data from each id "#" and places it back in the .time-block with the matching id 
 $("#9").val(localStorage.getItem("9"));
 $("#10").val(localStorage.getItem("10"));
 $("#11").val(localStorage.getItem("11"));
