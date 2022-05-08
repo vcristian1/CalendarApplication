@@ -11,4 +11,4 @@ may type your desired content, and click the save button. Now the text and the h
 
 ## Image/Screenshot
 
-Screenshot is included in the files.
+![screenshot of calendar](calendarApplication.jpg)
