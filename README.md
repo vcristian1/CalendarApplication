@@ -6,8 +6,8 @@ When the user opens the daily planner to create a schedule the current day and t
 may type your desired content, and click the save button. Now the text and the hour attached to it is saved in local storage.
 
 ## URLs
-[Github Pages](https://vcristian1.github.io/CalendarApplication/)
-[Repository](https://github.com/vcristian1/CalendarApplication)
+[Github Pages](https://vcristian1.github.io/calendarApplication-demo/)
+[Repository](https://github.com/vcristian1/calendarApplication-demo/)
 
 ## Image/Screenshot
 
